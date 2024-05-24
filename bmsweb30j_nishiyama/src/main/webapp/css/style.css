@@ -1,0 +1,319 @@
+/* ====================================
+      タグ設定
+   ==================================== */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	padding: 20px 0;
+}
+
+h2 {
+	padding: 20px 0;
+	color: rgb(128, 0, 64);
+}
+
+h3 {
+	padding: 10px 0;
+	margin-bottom: 20px; 
+}
+h4 {
+	padding: 10px 0;
+	color: rgb(0, 128, 0);
+	 
+}
+
+h4.footer{
+	padding: 10px 0;
+	color: rgb(0, 128, 0);
+	margin-left: 8%;
+}
+
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+input[type="submit"] {
+	 padding: 1px 24px;
+}
+
+div.right {
+	padding-left: 30%;
+}
+
+
+table {
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+select {
+	padding: 1px 30px;
+}
+
+
+
+
+/* ====================================
+      共通クラス設定
+   ==================================== */
+.inline-block {
+	display: inline-block;
+}
+
+
+/* ====================================
+      ページ全体設定
+   ==================================== */
+/* ブラウザ全体の画面設定 */
+
+.double {
+	border: none;
+    background-color: #fff;
+    border-width: 1px 0 0 0;
+    border-top: double;
+    border-color: black;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+        
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrap {
+	position: relative;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	height: auto !important;
+	
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+/* ヘッダー */
+header {
+	padding-top: 10px;
+	border-bottom: 5px solid rgb(0, 128, 0);
+	text-align: center;
+	color: rgb(0, 128, 0);
+}
+
+/* メニュー画面 */
+#menu {
+	position: relative;
+	border-bottom: 3px solid rgb(0, 128, 0);
+}
+
+/* ユーザー情報 */
+#userinfo {
+	position: relative;
+	border-bottom: 3px solid rgb(0, 128, 0);
+	padding-left: 80%;
+	
+}
+
+
+
+.txt {
+	display:inline-block;
+    text-align: left;
+}
+ 
+.box-left {
+	 padding-right: 21%;
+}
+
+/* メイン画面 */
+#main {
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 250px;
+	text-align: center;
+}
+
+/* メニュー限定メイン画面 */
+#m_main {
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 250px;
+	text-align: center;
+	padding-left: 40%;
+}
+
+/* フッター */
+footer {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 0px;
+	
+	border-top: 2px solid rgb(0, 128, 0);
+}
+
+/* ナビゲーションバー */
+#nav {
+	position: absolute;
+	top: 23px;
+	width: 30%;
+	margin-left: 8%;
+}
+
+#nav li {
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ページタイトル */
+#page_title {
+	text-align: center;
+}
+
+
+
+
+/* ====================================
+      テーブル設定
+   ==================================== */
+.changepass-table th,.changepass-table td {
+	width: 40%;
+}
+
+/* 一覧画面用テーブルの設定 */
+
+.list-table {
+	width: 60%;
+	margin-top: 15px;
+}
+
+/* 詳細情報用テーブルの設定 */
+.detail-table {
+	width: 30%;
+	text-align: center;
+}
+
+/* カート用テーブルの設定 */
+.cort-table {
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.showCart-table {
+	width: 50%;
+	padding-top: 50px;
+}
+
+.insertToCart-table {
+	width: 40%;
+	height: 50px;
+}
+
+.white{
+	background-color: rgb(255, 255, 255);
+	color: rgb(128, 0, 64);
+}
+
+table tr td.white{
+	background-color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+
+
+/*テーブルの色設定*/
+table tr th {
+	width: 150px;
+	background-color: rgb(192, 192, 192);
+	
+}
+
+.detail-table tr td{
+	background-color: rgb(202, 255, 202);
+	width:50%;
+	text-align: left;
+	padding-left : 10px ;
+}
+
+.detail-table tr th {
+	background-color: rgb(192, 192, 192);
+	width:50%;
+	text-align: left;
+	padding-left : 10px ;
+}
+
+/* 変更用テーブルの設定 */
+.update-table tr td {
+	background-color: #E0FFFF;
+	
+}
+
+.update-table tr th.white{
+	background-color: rgb(255, 255, 255);
+}
+
+
+
+/* 入力フォーム用テーブルの設定 */
+.input-table input[type="text"] {
+	width: 100%;
+}
+
+/* ====================================
+      メニュー画面設定
+   ==================================== */
+/* メニューリンクの設定 */
+.link li {
+	margin-bottom: 20px;
+    text-align: left;
+	
+}
+
+/* ====================================
+      リストフォーム設定
+   ==================================== */
+   
+/* 入力フォーム用テーブルの設定 */
+.list-table input[type="text"] {
+	width: 30px;
+	height: 23px;
+	text-align: center;
+}
+   
+
+
+
+/* ====================================
+      エラー画面設定
+   ==================================== */
+/* エラーメッセージの設定 */
+.error-msg {
+	text-align: center;
+}
+
+/* エラー画面リンクの設定 */
+.back-link {
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+.red {
+	color: rgb(255, 0, 0);
+}
